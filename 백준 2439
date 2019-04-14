@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+	int x, y, z;
+	scanf("%d", &x);
+	for(y = 1; y <= x; y++)
+	{
+		for(z = 0; z<= x - y; z++)
+		{
+			printf(" ");
+		}
+		for(z = 1; z <= y; z++)
+		{
+		    printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+//백준 2439번 (별찍기 2)
+//김진하가 풀었음
+//2019.04.14.Sunday
